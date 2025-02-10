@@ -1,0 +1,86 @@
+@media (max-width: 600px) {
+    /* Navbar */
+    .navbar-brand img {
+        width: 40px; /* Adjust the size of the logo */
+        height: 40px;
+    }
+    
+    /* Navbar links */
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-nav li {
+        margin: 5px 0;
+    }
+  
+
+    }
+    /* Container text */
+    .container-fluid h1 {
+        font-size: 1.5rem; /* Make heading smaller on small screens */
+    }
+
+    /* Adjust image sizes in grid */
+    .row img {
+        width: 100%; /* Make images full-width in a column */
+        height: auto;
+    }
+
+    /* Footer layout */
+    .container-fluid .row div {
+        text-align: center; /* Center the footer content */
+        margin-bottom: 20px;
+    }
+
+    /* Adjust social media icons */
+    .i i {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+
+    /* Make form input and button full-width */
+    .d-flex input,
+    .d-flex button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Footer content layout */
+    .container-fluid .row .col-3 {
+        width: 100%; /* Make columns take full width */
+        padding: 10px 0;
+    }
+    /* about */
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    /* type */
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .row.pt-3,
+      .row.pt-4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .col-3 {
+        flex: 1 1 45%;
+        margin-bottom: 15px;
+      }
+
+      /* Adjust footer layout */
+      .container-fluid {
+        padding: 15px;
+      }
+      .col-3 {
+        text-align: center;
+      }
+
+}
